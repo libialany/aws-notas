@@ -62,3 +62,21 @@ C. Make use of Storage Gateway Stored volumes.
 D. Make use of Amazon Glacier.
 
 [ebs questions](https://ahireharshal.com/cloud/aws-storage-gateway/)
+
+**Plus**
+
+1) You host a static website in an S3 bucket and there are global clients from multiple regions.
+You want to use an AWS service to store cache for frequently accessed content so that the latency 
+is reduced and the data transfer rate is increased. Which of the following options would you choose? 
+
+"cache is a high-speed data storage layer that stores a subset of data, usually temporally(transient)"
+
+A. Use AWS SDKs to horizontally scale parallel requests to the Amazon S3 service endpoints.
+F>AWS interact with programing languages, not apply fr cache
+B. Create multiple Amazon S3 buckets and put Amazon EC2 and S3 in the same AWS Region.
+F> Not apply .
+C. Enable Cross-Region Replication to several AWS Regions to serve customers from different locations.
+F> Not working with the cache.
+D. Configure CloudFront to deliver the content in the S3 bucket.
+T> I read a feacture of S3 was CloundFront ,and Cloudfront deals with  the content delivery.
+
