@@ -23,3 +23,7 @@ Examples of this are SQS and SNS.
 3/Ephemeral data store.
 The data does not stick around,so if you stop the instance
 Examples of this are EC2 Instance Store and Memcached data
+
+
+S3 Preguntas
+te piden un servicio que guarde Objetos,si crece la demanda en otros lados puedas clonarlo, 
