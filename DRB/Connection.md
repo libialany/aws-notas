@@ -15,7 +15,8 @@ In your Machine:
 
 create ssh connection:
 
-ssh -N -L "3306:<endpoint-database-rds>:3306" <user-of-ec2>@<ec2-public-ip> -i "<ssh-key>"
+
+ssh -N -L "3306:&lt;endpoint-database-rds&gt;:3306" &lt;user-of-ec2&gt;@&lt;ec2-public-ip&gt; -i "&lt;ssh-key&gt;"
 
 in security settings of your rdb  you find end-point.
 
