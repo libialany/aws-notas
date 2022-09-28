@@ -7,7 +7,7 @@ important: install failban in your ec2.
 
 Create an RDS in the same VPC as the ec2 , in th e inbound rules configura the default rule  like:
 
-![set](https://github.com/libialany/aws-notas/tree/main/DRB/last-set.png)
+![set](https://github.com/libialany/aws-notas/blob/main/DRB/last-set.png)
 
 look at the source ,which is the private IP of the EC2 instance.
 
