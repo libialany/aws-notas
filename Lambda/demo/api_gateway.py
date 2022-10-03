@@ -18,7 +18,7 @@ def handler(event, context):
     operation = event['operation']
 
     if 'tableName' in event:
-        dynamo = boto3.resource('dynamodb').Table(event['tableName'])
+        dynamo = boto3.resource('dynamodb').Table(event['lambda-apigateway'])
 
     operations = {
         'create': lambda x: dynamo.put_item(**x),
