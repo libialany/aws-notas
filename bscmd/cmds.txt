@@ -1,0 +1,30 @@
+Upload to Neptune te content of s3 bucket
+You have to create and EndPoint>
+
+export NEPTUNE_ENDPOINT=neptune-cluster.cluster-ro-ce20d9m5da3p.
+
+curl -X POST -H 'Content-Type: application/json' \
+https://$NEPTUNE_ENDPOINT/loader -d '
+{
+    "source":"s3://<name-bucket>/<file-bucket>",
+    "format":"ntriples",
+    "iamRoleArn":<arn-route>,
+    "region":"us-east-1",
+    "failOnError":"FALSE",
+    "parallelism":"MEDIUM",
+    "queueRequest":"TRUE"
+}'
+
+create a dinamodb by cli:
+
+aws dynamodb create-table --table-name redshift-import --attribute-definitions  AttributeName=ID,AttributeType=N --key-schema AttributeName=ID,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5
+
+#this was for have a structure db in dynamo.
+
+connect to redshift:
+
+psql -h <endpint> -U masteruser -p 5439 import-test
+
+create table users_import (ID int,Name varchar , Department varchar, ExpenseCode int);
+
+copy users_import from 's3://<name-bucket/redshift-data.json>' iam_role '<your-arn-role>' delimiter ',';
