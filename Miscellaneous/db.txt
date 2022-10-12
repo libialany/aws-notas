@@ -1,0 +1,16 @@
+:description: notes about databases,theory
+
+RDS EXAMS TIPS: 
+1.Types
+2.OLTP Workloads transaction of any type of app
+3.OLAP Workloads Redshift 
+
+INCREASING READ PERFORMANCES WITH READ REPLICAS
+
+Read Replica
+1. read replica is a read-only copy of your primary database,can be cross AZ.
+2. read replicas own databases DNS endpoint.
+
+Scaling Read Performance
+
+Requires Automatic Backups
