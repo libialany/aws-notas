@@ -1,0 +1,36 @@
+from datetime import datetime
+import json
+import os
+import boto3
+
+dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
+
+def lambda_handler(event, context):
+
+    operation = event['operation']
+    if not 'tableName' in event:
+        return {'statusCode': 404, 'body': json.dumps({'message': 'No selected db'})}
+    global dynamodb
+    dynamodb=dynamodb.Table(event['tableName'])    
+    #make rando functions
+    def make_random_function():
+        print('updating records')
+    #serie
+    def update_dynamodb():
+        make_random_function()
+        print('update weigths')
+    #episode
+    def insert_dynamodb():
+        response=dynamodb.put_item(Item={"serie":"the owlhouse","episodes": 24, "title": "One Punch Man"})
+        print(json.dumps(response))
+        
+    #main GET
+    if event['operation']=='serie':
+        update_dynamodb()
+        return {'statusCode': 200, 'body': json.dumps({'message': 'updated db'})}
+    elif event['operation']=='episodes':
+        insert_dynamodb()
+        return {'statusCode': 200, 'body': json.dumps({'message': 'inserted newest'})}
+    else:
+        return {'statusCode': 404, 'body': json.dumps({'message': 'No selected db'})}
+    
