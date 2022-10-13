@@ -1,0 +1,1 @@
+read in my medium https://medium.com/@elibialany/set-up-a-wordpress-site-using-ec2-and-rds-374fe4703c85 
