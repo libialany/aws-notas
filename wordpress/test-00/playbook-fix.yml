@@ -1,0 +1,11 @@
+---
+- hosts: wordpressmachines
+  tasks:
+    - name: Move new wordpress wp-config.php file
+      become: yes
+      command: mv /tmp/wp-config.php /var/www/wordpress/wp-config.php
+    - name: restart apache2
+      become: yes
+      service:
+        name: apache2
+        state: restarted
