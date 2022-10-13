@@ -1,4 +1,0 @@
-- hosts: wordpressmachines
-  become: yes  
-  tasks:
-   - ping
