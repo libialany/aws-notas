@@ -1,0 +1,4 @@
+fields  action="REJECT"
+| stats count(*) as numRejections by srcAddr
+| sort numRejections desc
+| limit 20
