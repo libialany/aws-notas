@@ -18,7 +18,7 @@ Private Subnets
 
 LabPVCPrivateA:10.20.3.0/24
 
-LabPVCPrivateB:10.20.3.0/24
+LabPVCPrivateB:10.20.4.0/24
 
 
 create internet gateway
