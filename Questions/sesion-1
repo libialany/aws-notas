@@ -1,0 +1,26 @@
+PREGUNTA-La aplicación alojada en las instancias se espera que sea extremadamente popular. Este sitio espera un tráfico muy alto y necesitará un equilibrador de carga, manteniendo un alto rendimiento con una latencia ultra baja.
+
+-NLB Equilibrio de carga del tráfico TCP y UDP.
+
+PREGUNTA-Arquitectura de volúmenes EBS en la mayoría de las instancias EC2, asumiendo que las instancias EC2 y los volúmenes EBS serán eliminados,
+¿Que se puede realizar para preservar los datos en los volúmenes EBS y mantener los datos disponibles en un corto tiempo?
+
+- Crear una instantánea que contenga toda la información necesaria para restaurar los datos(SNAPSHOT).
+
+Otro Caso uso S3
+
+-Los datos almacenados en los volúmenes de EBS se transfieren automáticamente a un depósito de Amazon S3 para fines de almacenamiento a largo plazo.-
+
+
+PREGUNTA-Desglosando los costes hasta el nivel más completo y detallado,necesita almacenar un informe csv.
+
+El informe de costes y uso de AWS(aws cost & usage) genera y exporta csv diariamente.
+
+
+PREGUNTA-Servicio Alexa y servicios de aws que se pueden integrar.
+
+- puedo realizar aplicacion (NLP) con Polly.
+
+- convertir aplicaciones de habla con Lex.
+
+- tener texto generado de un audio Transcribe.
