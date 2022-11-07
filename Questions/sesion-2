@@ -1,0 +1,26 @@
+PREGUNTA- en que situacion podemos configurar las Sg de ec2
+R-
+Sepueden cambiar en un estado de  stopping o running.
+
+PREGUNTA- mejor forma de monitizar y reparar errores en health ckech de ec2?
+R-
+CloudWatch puede rebootear una ec2 si esta se encuantra fallando.
+
+PREGUNTA- Tienes ALB que esta realizando health checks de ec2 ,que realiza si una ec2 esta fallando?
+R-
+ALB deja de enviarle trafico
+
+PREGUNTA-Si tienes ec2 con instance store volumes y estos son ephemeral ,que deberias realizar para no perder la data de estas ec2?
+R-
+Primero un instance storage son temporales storages.
+esta se pierde cuando:
+-Los drivers del disco fallan.
+-La ec2 es : stopped , terminated.
+-El disco duro falla.
+Entonces si rebooteamos el ec2 esto no se pierde.
+
+PREGUNTA-QUE SERVICIO USAS SI QUIERES CONVERTIR TEXTO EN OTROS IDIOMAS?
+R-
+AWS traslate
+
+>:|
