@@ -1,0 +1,19 @@
+PREGUNTA1-Elastic Beannstalk para implementar una aplicacion,se debe proporcionar credenciales para autenticarse y despues solo se pueda realizar operaciones de upgrade.
+R-
+AWS STS (ecurity Token Service) tienen control temporal de algunos recursos.
+
+PREGUNTA2-Guardar objetos de nuestro s3 ,pon  cualquier error de sobreescritura.
+R-
+Activando el versionamiento del bucket.
+
+PREGUNTA3-La base de datos debe ser inmutable y verificable criptográficamente.
+R-
+Amazon Quantum Ledger Database (QLDB),porque es provee un completo verificable historial de los cambios de la data de un aplicacion.
+
+PREGUNTA4-aws service optimize your aws ambiente y da recomendaciones para reducir el costo.
+R-
+AWS trsuted Advisor ,verifica la infraestructura y cuan optimo es.
+
+
+
+
