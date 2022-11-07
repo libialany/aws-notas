@@ -1,0 +1,30 @@
+PREGUNTA1-datos altamente confidenciales en S3 Buckets,los datos que ingresan deben ser alertados y enviarse alertas si guardan inapropiada dat.
+r-
+AWS Macie
+Descripcion verificacion de seguridad y la privacidad de los datos guardados en s3
+Costo primercosto nro de s3in tu cuenta por mes ,segundo costo monto de sensitiva dara descubierta. y al final ambos se suman.
+Integracion ?
+
+PREGUNTA2-Cual es la mejor forma de dar permisos a un servicio para acceder a otros servicios ?
+r-
+roles iam 
+#https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html#id_which-to-choose_role
+
+PREGUNTA3-Que servicio de AWS , nos permite encontrar una forma de automatizar la deteccion de fraude usando machine learning y artifial inteligence.
+r-
+AWS fraud Detector
+Descripcion-AWS IA ,defines eventos que son evaluados como fraude ,cargas  el s3 y seleccionas el modelo de deteccion.
+Costo : Proceso de carga y guardado, Entrenamiento del modelo,hosteo de la carga y la prediccion carga.
+Integracion
+
+PREGUNTA4-Debes configurar un EC2 accesioble a internet y que almacenar en DynamoDB.
+r-
+1. create a internet gateway
+2. asegurar de que nacl y sg permitan el flujo de trafico y desde la instancia
+3. adicionar del internet gateway en en las route tables.
+
+PREGUNTA5-Necesitas un storage para files,sea  highly-durable,accedido frecuentemente,highly-scalable y cost-effective.
+r- 
+AWS S3
+
+
