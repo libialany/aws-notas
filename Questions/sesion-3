@@ -1,0 +1,37 @@
+PREGUNTA-Menciona algunos conceptos de Network ACL's que esten configurados por default? 
+R-
+NACL estan asociados a subnets,en la configuracionpor default slo se tiene una rule en inbound :
+
+100 0.0.0.0/0 ALLOW
+*   0.0.0.0/0 DENY
+
+outbound rules:
+
+100 0.0.0.0/0 ALLOW
+*   0.0.0.0/0 DENY
+
+# https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html
+
+PREGUNTA-Ec2 deberia ser encriptado antes de escibir datos y debes manejar llaves criptograficas.
+R-
+Cuando se maneja llaves criptograficas se tiene ele servicio de KMS.
+
+PREGUNTA-Como se evaluan las NACL's?
+R-
+estas se leen de el numero mas bajo al mas alto y se busca el numero que son iguales.
+
+PREGUNTA-estas creando un multiregion disater recovery ,con  un RTO de 1 hora y un RPO de 15 minutos,cuales son los pasos que ejecutas?
+R-
+Crear un replica de lectura inter-regional del RDS.
+En caso de fallo, promueva la réplica de lectura para que sea una base de datos independiente.
+Envíe nuevas lecturas y escrituras a esta base de datos.
+De este modo, se gestionará el objetivo de tiempo de recuperación y el objetivo de punto de recuperación.
+Sus datos se mantendrán en la región secundaria y se podrá acceder a ellos fácilmente cuando sea necesario. https://aws.amazon.com/rds/features/read-replicas/
+
+PREGUNTA- Debes subir a un s3 de 5GB a 5TB aproximadamente,debes empezar con 1TB. 
+R-
+La mejor solucion es usar la tecnica Multipart Upload,al subir partes despues se puede construir el objeto.
+
+
+
+
