@@ -1,0 +1,20 @@
+PREGUNTA-como aseguras las reglas de tu firewall atravez de muultiples cuentas y regiones son consistentes
+RESPUESTA- aws fiREWALL mANAGER
+descripcion centralizar y configurar el manejo de los firewalls.
+integracion aws organization.
+costo se compra regla
+PREGUNTA- tienes una VPC ,2 Subnets ,la primera subnet tiene un intenet gateway y la 2da no accesible, cual es el motivo?.
+RESPUESTA- debe tener ig y una ip publica
+PREGUNTA- Cuando tu tienes un problema de seguridad y quieres conocer la raiz ,desde donde empezo ,que servicio usas?
+RESPUESTA-AWS Detective
+descripcion-investiga las causa y usa machine learning
+integracion-requiere que tengas guardDuty , security Hub.
+costo-cde la subida y el espacio GB ingresado x cuenta x  region x mes.
+PREGUNTA-Tienes un RDS,como configuras para offline eventos ,debes recuperar rapido?
+RESPUESTA- alta dispoinbilidad con MultiAZ porque automaticamente se ira a la segunda copia y crea un punto de lectura(replica de lectura).
+
+
+
+
+
+
