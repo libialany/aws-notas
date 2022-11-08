@@ -1,0 +1,9 @@
+PREGUNTA- cuantas sg puede tener un ec2 instance?
+RESPUESTA- Todas las que pueda.
+PREGUNTA- Sercvicio de Alerta de un mal s3?
+RESPUESTA- AWS Macie
+Datos almacenados incorrectamente
+PREGUNTA- Transferir datos de un s3  a clientes que se encuentren lejos(largas distancias).
+RESPUESTA- La cantidad de aceleración depende principalmente de su ancho de banda disponible.
+PREGUNTA- describe Amazon Redshift?
+RESPUESTA- query optimization
