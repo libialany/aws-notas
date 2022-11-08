@@ -1,0 +1,10 @@
+PREGUNTA-cuales son las responsabilidades compartidas?
+RESPUESTA-Os Patching
+PREGUNTA-escalar ec2 que infraestructura creas?
+RESPUESTA-CloudWatch alarm que tenga un trigger y despues realice una accion de acuerdo a ala utilizacion del CPU.
+PREGUNTA-Crear una coneccion on-premise y on-demand, que reuse el internet. 
+RESPUESTA-VPN admitirá un ancho de banda mucho más pequeño que Direct Connect.
+PREGUNTA-Stream Video y realizar analiticas que servicio implementarias?
+RESPUESTA-kinesis video streams
+Descripcion servicio de video que utilixa ML
+Costo GB x mes
