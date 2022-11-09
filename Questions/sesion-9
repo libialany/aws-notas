@@ -1,0 +1,17 @@
+PREGUNTA-Diferencia entre a public subnet de una privada?
+RESPUESTA-una oublic sunet tiene internet gateway.
+PREGUNTA-Hay nuchas instancias que revisa el estafo , que servicio puede verificar >
+RESPUESTA-AWS Compute Optimizer
+Descripcion descripcoin de optimas configuraciones EBS, EC2 y lambda.
+CostoNRI HORAS X BRO DE INSTANCIAS
+Integracion
+PREGUNTA-guardas stack traces en un s3 ,estalecer un tiempo de uso a un s3?
+RESPUESTA-CONFIGURAR un Lifecycle para despues de una semana borrar.
+PREGUNTA-Descripcion de Default network ACL.
+RESPUESTA-Adiciona y Remover reglas de default NACL.
+PREGUNTA-existen reglas de cumplimiento acerca de lugares y los usuarios.
+RESPUESTA-Route 53 geolocation routing,permite srvir trafico desde la ubicacion geografica de sus usuarios, definir que regiones pueden acceder.
+PREGUNTA-Un ec2 necesita un storage independientede la vida de la ec2.
+RESOUESTA-EBS tambien fijar DeleteOnTermination en Falso para que este atado al ec2.
+PREGUNTA-Como mejorar la lectura de un rds?
+RESPUESTA-Add read replicas, pueden estar en Availability Zone, Cross-AZ,o Cross-Region
