@@ -8,5 +8,8 @@ P-Rapida recuperacion si un Availability Zone se va offline.
 R-Cread Read Replicas y direccionar ha ellos,activar MultiAZ .
 P-storage servicio simple, escalable, fully managed elastic NFS file system.
 R-EFS
-
+P-La app es segura y necesita dedicado hardware firewalls.
+R-AWS Network Firewall,easy to deploy physical firewall protection across your VPCs.
+P-a consistent data set to perform test,setrieved upon each new test,need by exporting data
+R-Elastic Map Reduce
 
