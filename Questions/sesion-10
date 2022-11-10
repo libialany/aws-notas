@@ -1,0 +1,12 @@
+P-NACLs estan configurados de la siguiebnte forma 100 all trafic ALOOW, * all trafic DENY.
+R-* explica que si noexisteun paquete que este en algunade lasreglas se lo niege
+P-ec2 con fault-tolerance y flexible , not critical.
+R-Spotinstances son paratesting,son contrarias a On-Demand.
+P-s3 para propositos de auditacion(Logs),cheaper no recurente.
+R-lifecyle policy para guardar en un s3 glaciar.
+P-Rapida recuperacion si un Availability Zone se va offline.
+R-Cread Read Replicas y direccionar ha ellos,activar MultiAZ .
+P-storage servicio simple, escalable, fully managed elastic NFS file system.
+R-EFS
+
+
