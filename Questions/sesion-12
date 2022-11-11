@@ -1,0 +1,5 @@
+P-your firewall rules across these multiple accounts and regions are consistent
+R-AWS Firewall Manager
+Protection Policy, Config Configuration Item, Config rule evaluations, WAF WEBACL, WAF RULE 
+P-Data que necesitas recuperara cada test, necesitas exportart de DynamoDB y import de  DynamoDB?
+R-EMR Transformando y analizandfo tu data y no preocuparte de compute capacity.
