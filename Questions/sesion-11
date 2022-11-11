@@ -1,0 +1,13 @@
+P-configurar la database high-availability y asegurar un minimo downtime.
+R-Multi-AZ failover on the database ,create az https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html
+P-Servicio para crear un reporte que contenga AWS East/West and GovCloud Executive Briefing, Control Implementation Summary (CIS), Customer Responsibility Matrix (CRM), E-Authentication. 
+R-AWS Artifact ,consigues  compliance-related information.
+P-RDS read-heavy ,accion par reducir el  problema de read.
+R-Adicionar read replicas.#https://aws.amazon.com/rds/features/read-replicas/
+P-storing highly sensitive data en un S3 Buckets,debe ser analizado.
+R-Macie;Usa ML para descubrir.
+P-Asegurarte  de que las reglas de tu firewall de tus multiples cuentas y servicios  esten bien configuradas.
+R-AWS Firewall Manager ,administrar de forma centralizada las reglas de firewall 
+P-monitorear Iot devices en tiempo real que provea valiosas vistas.
+R-Kinesis incluye Data Analytics
+
