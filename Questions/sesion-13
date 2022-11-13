@@ -1,0 +1,12 @@
+P-s3 para tranferir de forma segura y rapida que servicio utilizas?
+R-Transfer Aceleration
+P-mas highly-available , rapido RTO en caso de desatre?
+R-Se tiene un standBy replica , que esta sincronizada,se encunetra en una diferente AZ.
+P-crear un database configurado high-availability y segurarte de un minimo downtime? 
+R-Multi-AZ failover 
+P-Servicio que inicie la recopilacion demetricas y genere recomendaciones para instancias Ec2 de tamannio nicorrecto?
+R-Cost Optimize Automatice la recopilación de métricas para instancias informáticas infrautilizadas y de bajo rendimiento
+P-necesitas bajar un poco el trafico de lectura de tu DB.
+R-Adiciona read replicas para bajar el trafico de lectura.
+P-atar un eni ec2  a otra ,mientras esta corriendo.
+R-hot attach, cuando esta corriendo.
