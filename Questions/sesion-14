@@ -1,0 +1,13 @@
+P-La aplicacion ha crecido, comparte globalmente, puede hostear una static website, sirve contenido globalmente,que servicios usas?
+R-S3 GlobalAcelerator y Cloudfront servicios usan AWS global network,CloudFront mejora el envio de contenido cacheable y dinamico contenido.
+Global Aceleretor mejora trafico UDP/TCP.
+P-Describe una Subnets de un VPCs.
+R-Cada subnet pertenece a una sola AZ y cada subnet creada es asociada a una principal tabla de rutas(RT) para una VPC.
+P-Masivos retrasos con cargas de trabajos de la aplicacion, quieres mejor conocimiento de los tiempos de repuestas que afectan a las funciones de AWS Lambda?
+R-AWS X-Ray colecciona data acerca peticiones,nos ayudan a la optimizacion.
+P-Necesitas RDS manejar las caragas de trabajo que son read-heavy .
+R-CREAS UNA READ REPLICA y  direccinoas la carga a esa read replica,tu puedes escalar para mas capacidad y son asincronas.
+ENABLE MultiAZ para el database, automaticamente sufrir un fail over poder usar la copia secundaria.
+P-Procesas stream data en tiempo real, con  SQL y soin conocimientos de un nuevo language querie?
+R-Amazon Kinesis,guarda mediante key capabilities.
+
