@@ -42,4 +42,36 @@ Control tower, has the power, and types.
 - Preventive prohibits actions
 - Detective provides alerts
 
+someone put an RDS on a public subnet, who made the changes?
 
+AWS Config 
+- Audit and evaluate configurations made on your resources 
+- You can receive integrations with s3, sns and cloudwatch.
+- You can have a snapshot of the configuration.
+
+-----------------------------------------
+S3 Cache No cache exists in s3
+If you use Cloudfront with s3 the cache is provided by Cloudfront.
+
+
+Services that use cache?
+Cloudfront, Elastic Cache and Media Player integration.
+
+-----------------------------------------
+
+If you want to have a centralized management, reduce organizational overhead and adapt OU structures  
+AWS Organizations
+-----------------------------------------
+
+You want to save yourself the fatigue of configuring roles, user, sigin. There is a service that login to all AWS accounts, built in identity store, Connect to AD, gives you the possibility to use 3rd party authentication services.
+
+AWS SSO
+-----------------------------------------
+
+Tool for DevOps and deployment, for applications that use containers, you can use an AWS service.
+
+Automate the deployment of your ECS.
+
+AWS Proton 
+
+Translated with www.DeepL.com/Translator (free version)
