@@ -1,0 +1,45 @@
+========================================
+improving network performance - what is network performance improvement?
+
+what is improvement?
+- increased bandwidth 
+- higher number of packets per second (PPP)
+- lower latency
+
+Ways to improve:
+
+1. ENI 
+2. Improve the network 
+3. ENA
+Do you want to improve and share?
+ENI, you can move to another ec2 or acquire more ENI for an ec2.
+
+Want to improve throuput and lower latency?
+ENA ,thanks to OS by pass.
+
+========================================
+Security with RDS 
+
+- You can encrypt at rest, with KMS. 
+- Communication between app and db instance using SSL/TLS.
+- Modify the SG to allow security in the VPC of the DB.
+- Use Interface endpoints for the DB.
+========================================
+
+sensitive information in ecs ?
+AWS SystemManager Parameter store this integration KMS tiops Security String.
+
+========================================
+
+Create infrastructure and have grouped resources?
+SHARE, AWS RAM, if you have an AWS organization you can choose to share resources.
+
+========================================
+
+multi-account rules.
+
+Control tower, has the power, and types. 
+- Preventive prohibits actions
+- Detective provides alerts
+
+
